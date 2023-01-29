@@ -14555,7 +14555,7 @@ body p {
 }
 @media (max-width: 1199px) {
   body p {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 body img {
@@ -15200,6 +15200,7 @@ table tfoot td:last-child {
   background-size: 150% 100%;
   color: var(--header_color);
   cursor: pointer !important;
+  
 }
 .btn:hover svg path,
 .button:hover svg path {
@@ -16520,6 +16521,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
+  top: 0;
+  transition: top 0.3s;
 }
 @media (max-width: 1440px) {
   .header-wrap {
@@ -16554,6 +16557,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
+  
 }
 .main-nav .menu {
   display: -ms-flexbox;
